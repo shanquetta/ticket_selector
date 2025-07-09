@@ -1,0 +1,34 @@
+name: Build Windows Executable
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        pip install pyinstaller pyperclip
+
+    - name: Build EXE
+      run: |
+        pyinstaller --onefile --windowed --icon=App_Icon.ico ticket_selector.py
+
+    - name: Upload Release Artifact
+      uses: softprops/action-gh-release@v1
+      with:
+        files: dist/ticket_selector.exe
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
