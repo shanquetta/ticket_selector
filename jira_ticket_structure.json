@@ -1,0 +1,242 @@
+{
+  "Access": {
+    "Databricks": {
+      "Permission Issues": {
+        "Subcategory2": "Permission Issues",
+        "Team": "AW"
+      },
+      "New Token Request": {
+        "Subcategory2": "New Token Request",
+        "Team": "AW"
+      },
+      "An issue with an org's rule for a Table, Database, or S3 Location": {
+        "Subcategory2": "Access Rule Issue",
+        "Team": "Platformers"
+      },
+      "Request for access in Databricks that requires a DAR": {
+        "Subcategory2": "Data Access Request",
+        "Team": "Platformers"
+      }
+    },
+    "SAS": {
+      "Workbench Access Issues": {
+        "Subcategory2": "Workbench Access Issues",
+        "Team": "AW"
+      }
+    },
+    "Portal": {
+      "Portal controls resources for S3 buckets, roles, rules, and we give permissions to databricks and sasviya.": {
+        "Subcategory2": "Permissions",
+        "Team": "Portal"
+      },
+      "When an org or user needs to offboard then this would be a split jurisdiction the portal team and the data platformers": {
+        "Subcategory2": "Offboarding",
+        "Team": "Portal"
+      }
+    }
+  },
+  "Application": {
+    "Databricks": {
+      "An issue with a dataset not being refreshed/up-to-date as stated in the Data Catalog (Does not include BYOD)": {
+        "Subcategory2": "Data Refresh Update Issue",
+        "Team": "Platformers"
+      },
+      "An issue with the correctness or quality of the data we refresh (Does not include BYOD)": {
+        "Subcategory2": "Data Refresh Quality Issue",
+        "Team": "Platformers"
+      },
+      "An issue with the information in the Data Catalog or a question about the conents": {
+        "Subcategory2": "Data Catalog Issue",
+        "Team": "Platformers"
+      },
+      "Request to kick off an ad-hoc data refresh": {
+        "Subcategory2": "Data Refresh Request",
+        "Team": "Platformers"
+      },
+      "User code (PySpark/SparklyR/SparkSQL) execution yields a system error that is not related to data permissions": {
+        "Subcategory2": "Code Issue - Non-Permissions Based System Error",
+        "Team": "User Services"
+      },
+      "User code (PySpark/SparklyR/SparkSQL) execution yields unexpected output(s)": {
+        "Subcategory2": "Code Issue - Unexpected Output",
+        "Team": "User Services"
+      },
+      "User should be instructed to submit a DAR Request": {
+        "Subcategory2": "Compute Cluster Resource Request",
+        "Team": "No Detail"
+      },
+      "No Detail": {
+        "Subcategory2": "DAR Request",
+        "Team": "No Detail"
+      }
+    },
+    "SAS Viya": {
+      "No Detail": {
+        "Subcategory2": "Infrastructure",
+        "Team": "Efe"
+      },
+      "Patching and hotfixes": {
+        "Subcategory2": "Security",
+        "Team": "Efe"
+      },
+      "User SAS code execution yields a system error": {
+        "Subcategory2": "Code Issue - System Error",
+        "Team": "User Services"
+      },
+      "User SAS code execution yields unexpected output(s)": {
+        "Subcategory2": "Code Issue - Unexpected Output",
+        "Team": "User Services"
+      }
+    },
+    "Portal": {
+      "When users are unable to process/ upload/ file their DUAs via Portal.": {
+        "Subcategory2": "PDF Processor",
+        "Team": "Portal"
+      },
+      "User has a question about content of Knowledge Base articles and other US team supported training artifacts in the Portal Training Hub": {
+        "Subcategory2": "Training Content Clarification",
+        "Team": "User Services"
+      }
+    },
+    "Code Commons": {
+      "User has a question about content of training artifacts in Code Commons": {
+        "Subcategory2": "Training Content Clarification",
+        "Team": "User Services"
+      }
+    },
+    "Lakehouse": {
+      "Restore data for end users of the CDR": {
+        "Subcategory2": "Data Recovery",
+        "Team": "Data Lakers"
+      },
+      "Archive data for end users of the CDR": {
+        "Subcategory2": "Data Archive",
+        "Team": "Data Lakers"
+      },
+      "Lock data as read-only for end users of the CDR": {
+        "Subcategory2": "Data Read-Only",
+        "Team": "Data Lakers"
+      },
+      "Issue with MFT/UFM connection to lakehouse data": {
+        "Subcategory2": "MFT/UFM Integration",
+        "Team": "Data Lakers"
+      },
+      "Issue with external connections to lakehouse data": {
+        "Subcategory2": "Bucket Policy",
+        "Team": "Data Lakers"
+      },
+      "Issue with data transferred from Landing Zone": {
+        "Subcategory2": "Landing Zone",
+        "Team": "Data Lakers"
+      }
+    }
+  },
+  "Data & Reporting": {
+    "DAR Request": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "UFM": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "Analytics Tools": {
+      "No Detail": {
+        "Subcategory2": "Quicksight",
+        "Team": "Efe"
+      }
+    }
+  },
+  "External Data": {
+    "BYOD": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "IQIES": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "HQR": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "EQRS": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "STAR Team": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "HARP": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "SAS2PY": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    }
+  },
+  "Infrastructure": {
+    "Release Management": {
+      "Issues/Questions outside of outages that come in due to a new release or deployment": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    }
+  },
+  "Other": {
+    "User Question": {
+      "No Detail": {
+        "Subcategory2": "General Inquires",
+        "Team": "No Detail"
+      }
+    }
+  },
+  "Outage": {
+    "Databricks": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    },
+    "SAS": {
+      "No Detail": {
+        "Subcategory2": "Infrastructure",
+        "Team": "No Detail"
+      }
+    },
+    "Portal": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    }
+  },
+  "Security": {
+    "No Detail": {
+      "No Detail": {
+        "Subcategory2": "No Detail",
+        "Team": "No Detail"
+      }
+    }
+  }
+}
